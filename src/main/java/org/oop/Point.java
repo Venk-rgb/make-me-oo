@@ -1,5 +1,11 @@
 package org.oop;
 
+interface GenericPoint {
+    double x = 0;
+    double y = 0;
+    double distance();
+    double direction();
+}
 public class Point {
     private double x;
     private double y;

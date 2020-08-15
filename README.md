@@ -25,4 +25,8 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
+    1. `Point` class uses getters and setters.
+    2. The `Point` class can have two methods, distance(Point) and direction(Point) which will return the distance and direction.
+    3. Additionally, we could have an interface called GenericPoint which will have two values x and y and both the methods (distance and direction), and our `Point` class can implement that interface. 
+       This way we could implement another class where the point is in 3D space, and we could extend it to any dimensions. The distance and direction methods can be overrided differently in the `3DPoint` class, and we need not make any changes to the 2DPoint class.
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
